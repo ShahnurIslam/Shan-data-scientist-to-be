@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Why I started this blog
 ---
 
 Hi my name is Shahnur(Shan for short). I'm currently a  data analyst based in London for a Marketing Agency. I have a background in Maths and did some programming in school. 
