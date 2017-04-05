@@ -11,5 +11,5 @@ I discovered data science about a year ago and realised it was my perfect job. S
 At the moment here are things I would like to finish in 2017
 - Udemy course Workshop in Probability & Statics**(48% done)**. My statistics wasn't great so decided to brush up as this is a key part of data science
 - Become proficient in Python & R
-- Finish readhing Hadley Wickhams R for Data Sciene book[available online](http://r4ds.had.co.nz/index.html)
+- Finish readhing Hadley Wickhams R for Data Sciene book [available online](http://r4ds.had.co.nz/index.html)
 
