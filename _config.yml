@@ -94,7 +94,7 @@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 #google_analytics: ""
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: "UA-96884074-1"
 
 # Facebook App ID
 # fb_app_id: ""
