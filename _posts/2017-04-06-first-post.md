@@ -5,7 +5,7 @@ title: First post!
 tags: [data science]
 ---
 
-You start a blog and then you can't decide what to write about in your first post. I decided I would write why I want to be a data scientist and show any cool things I've seen. 
+You start a blog and then you can't decide what to write about in your first post. After mulling it over I decided I would write why I want to be a data scientist and show any cool things I've seen. 
 
 **If you don't want to read all the below just skip to the bottom that summarises everything and a cool example of data science in action.**
 
