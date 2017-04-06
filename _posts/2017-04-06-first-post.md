@@ -33,8 +33,12 @@ Here's a cool example I saw on [R-Bloggers](https://www.r-bloggers.com/) of data
 [stich fix data science tour](http://algorithms-tour.stitchfix.com/)
 
 Thanks for taking the time to read my blog.
+
 Shan
+
+
 ***Disclaimer***
+
 **All the links I've provided I've done of my own accord and no one has paid me to do so**
 
 
