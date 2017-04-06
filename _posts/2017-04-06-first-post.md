@@ -12,8 +12,9 @@ The course was only a tenner so I thought why not since it had the word **'data'
 
 Whilst taking the course I realised there was a lot more statistics involved than I had in my wheelhouse. I hated statistics at school and university just because I wasn't good at it. Every over aspect I excelled at but statistics was always my weakness so I avoided as much as I could(paying for it now aren't I)
 
-
-
+---
+image: /img/Hindsight Droid.jpg
+---
 
 There's no point doing all this if you can't action any of the insight you've found
 
