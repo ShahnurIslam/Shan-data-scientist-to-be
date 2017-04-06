@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First post!
+comments:true
 tags: [data science]
 ---
 
