@@ -21,8 +21,10 @@ If you want to start learning those languages I highly recommend [data camp](htt
 
 Taking some courses I also realised there was a lot more statistics involved than I had in my wheelhouse. I hated statistics at school and university just because I was not good at it. Every over aspect I excelled at but statistics was always my weakness so I avoided as much as I could (paying for it now aren't I)
 
-<img src="http://static.fjcdn.com/pictures/Hindsight_c80e35_2006007.jpg" width="375" height="300" />
-I stopped the data science course and started brushing up on my statistics. I am actually getting good at it and enjoying it more than I thought I would.
+<img src="http://static.fjcdn.com/pictures/Hindsight_c80e35_2006007.jpg" width="375" height="300" align = "middle" />
+
+
+I stopped the data science course and decided to start brushing up on my statistics. I am actually getting good at it and enjoying it more than I thought I would.
 
 **Long story short this blog is about me becoming a data scientist and holding myself accountable.**
 
