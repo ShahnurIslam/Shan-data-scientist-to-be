@@ -37,7 +37,7 @@ Thanks for taking the time to read my blog.
 Shan
 
 
-***Disclaimer***
+** *Disclaimer* **
 
 **All the links I've provided I've done of my own accord and no one has paid me to do so**
 
