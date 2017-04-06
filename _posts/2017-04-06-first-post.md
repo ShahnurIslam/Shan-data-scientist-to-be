@@ -34,6 +34,7 @@ Here's a cool example I saw on [R-Bloggers](https://www.r-bloggers.com/) of data
 
 [stich fix data science tour](http://algorithms-tour.stitchfix.com/)
 
-Thanks for reading if you did.
+Thanks for taking the time to read my blog.
+
 Shan
 
