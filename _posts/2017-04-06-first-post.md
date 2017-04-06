@@ -30,7 +30,10 @@ I stopped the data science course and started brushing up on my statistics. I am
 
 
 
-Here's a cool example I saw on [R-Bloggers](https://www.r-bloggers.com/) of data science in action
+Here's a cool example I saw on [R-Bloggers](https://www.r-bloggers.com/) of data science in action:
 
 [stich fix data science tour](http://algorithms-tour.stitchfix.com/)
+
+Thanks for reading if you did.
+Shan
 
