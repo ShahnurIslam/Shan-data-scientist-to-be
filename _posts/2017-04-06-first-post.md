@@ -8,6 +8,7 @@ tags: [data science]
 **All the links I've provided I've done of my own accord and no one has paid me to do so**
 
 You start a blog and then you can't decide what to write about in your first post. I decided I would write why I want to be a data scientist and show any cool things I've seen. 
+
 **If you don't want to read all the below just skip to the bottom that summarises everything and a cool example of data science in action.**
 
 I first discovered data science accidently while perusing courses on Udemy when I was looking for courses to improve my SQL skills.
