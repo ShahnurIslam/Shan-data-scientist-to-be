@@ -26,8 +26,8 @@ Taking some courses I also realised there was a lot more statistics involved tha
 <img src="http://static.fjcdn.com/pictures/Hindsight_c80e35_2006007.jpg" width="375" height="300" />
 I stopped the data science course and started brushing up on my statistics. I am actually getting good at it and enjoying it more than I thought I would.
 
+**Long story short this blog is about me becoming a data scientist and my journey.**
 
-#####**Long story short this blog is about me becoming a data scientist and my journey.**####
 
 
 Here's a cool example I saw on [R-Bloggers](https://www.r-bloggers.com/) of data science in action
