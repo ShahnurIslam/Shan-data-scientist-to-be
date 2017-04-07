@@ -14,12 +14,12 @@ The course was only a tenner so I thought why not since it had the word **'data'
 
 I then started looking for more data science courses and found one on Coursera. If you have never heard of Coursera before, they have online courses taught by Universities and you can get a certificate with a university stamp on there. The course I found was called [Data Science Specialisation](https://www.coursera.org/specializations/jhu-data-science) taught by John Hopkins University. I finished the first module quite quickly as it was based of general data idioms which I had learnt in my job. The second course took a lot longer as I was getting married last summer and did not have the time to finish it in the recommended period. In addition, it was teaching me a new programming language so learning new syntaxes took a while.
 
-Only issue I have with Coursera is, each module has weekly assignments and quizzes you need to do. Now, I don't have the time to meet these weekly deadlines so I've held off finish the rest of the specialisation. 
+Only issue I have with Coursera is, each module has weekly assignments and quizzes you need to do. Now, I don't have the time to meet these weekly deadlines so I've held off finishing off the rest of the specialisation. 
 I am continuing to learn programming though including both Python and R as I don't want to limit myself. I think both have strengths and weaknesses but my preferred language is R.
 
 If you want to start learning those languages I highly recommend [data camp](https://www.datacamp.com/). You don't need to download any software’s as all the coding is done on their site. The beginner courses are free and you get a shiny certificate you can add to your LinkedIn profile. If you would like to do more of the advanced courses then you will need to subscribe to their site. 
 
-Taking some courses I also realised there was a lot more statistics involved than I had in my wheelhouse. I hated statistics at school and university just because I was not good at it. Every over aspect I excelled at but statistics was always my weakness so I avoided as much as I could (paying for it now aren't I)
+Taking some courses I also realised there was a lot more statistics involved than I had in my wheelhouse. I hated statistics at school and university just because I was not good at it. Every over aspect of maths I excelled at but statistics was always my weakness so I avoided it as much as I could (paying for it now aren't I)
 
 ![Droid Hindsight](http://static.fjcdn.com/pictures/Hindsight_c80e35_2006007.jpg){: .center-image }
 
