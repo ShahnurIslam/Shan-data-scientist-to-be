@@ -5,7 +5,7 @@
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: "http://shahnurislam.github.io"
-baseurl: ""
+baseurl: "http://shan-data-science.co.uk/"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -17,7 +17,7 @@ baseurl: ""
 title: Shan Data Scientist to be!
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: A blog on my journey to become a data scientist
 
 # --- Navigation bar options --- #
 
@@ -84,7 +84,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "shan-data-science.co.uk"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
