@@ -19,7 +19,7 @@ I am continuing to learn programming though including both Python and R as I don
 
 If you want to start learning those languages I highly recommend [data camp](https://www.datacamp.com/). You don't need to download any software’s as all the coding is done on their site. The beginner courses are free and you get a shiny certificate you can add to your LinkedIn profile. If you would like to do more of the advanced courses then you will need to subscribe to their site. 
 
-Taking some courses I also realised there was a lot more statistics involved than I had in my wheelhouse. I hated statistics at school and university just because I was not good at it. Every over aspect of maths I excelled at but statistics was always my weakness so I avoided it as much as I could (paying for it now aren't I)
+Taking some courses I also realised there was a lot more statistics involved than I had in my wheelhouse. I hated statistics at school and university just because I was not good at it. Every other aspect of maths I excelled at but statistics was always my weakness so I avoided it as much as I could (paying for it now aren't I)
 
 ![Droid Hindsight](http://static.fjcdn.com/pictures/Hindsight_c80e35_2006007.jpg){: .center-image }
 
