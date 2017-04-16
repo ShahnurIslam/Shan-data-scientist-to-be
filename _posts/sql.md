@@ -11,5 +11,32 @@ tags:
 I had to recall what SQL(Structured Query Language) actually stood for because no one actually calls it 'Structured Query Language'.
 People just refer to it as 'see-kwel'.
 
-As a programming language it's probably one of the softer languages and can be learnt by most people. 
-I remember picking it up in the first few careers and realis
+If you have a lot of historic data that you need to access and interrogate regularly then SQL is probably the way to go.
+As a programming language it's probably one of the softer languages and can be learnt by most people. Most of the basic queries are easy to understand if the columns of your data are labelled well. You can usualy decipher what they were asking of the data.
+
+Like the below, the query simply returns all the first names from your customers.
+```SQL
+SELECT first_name FROM customer
+```
+However it does have its pitfall. 
+-Someone needs to maintain the data
+-Whatever goes into the data will come out. Or as programmers like to say 'rubbish in = rubbish out.
+-For more complicated questions queries can become quite large.
+
+I'm not going to be teaching SQL in this blog as that's not why I started it. There are plenty of places online that good tutorals already so google 'SQL tutorials'and you should find them.
+
+However I will recommend the site 
+
+I remember picking it up in the first few years of my career and realis
+
+Any who 
+
+A good site i use for practice is SQL zoo
+
+Varying languages mysql, postgres SQL, t SQL various types but do the same thing.
+
+I remember doing a SQL test once in the very early days. How would you find
+
+Windows functions
+Stored procedures
+Rank
