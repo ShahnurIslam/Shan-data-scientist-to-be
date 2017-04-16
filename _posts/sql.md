@@ -33,7 +33,7 @@ However I will recommend the site [SQL ZOO](http://sqlzoo.net/). They do have tu
 When i first started learning SQL a few years ago, i thought to myself 'I'm good at this' despite only doing simple joins and basic queres. 
 I then remember doing a SQL test once in the very early days of my career. A simple question came up and I was stumped:
 
-#####"how would you find a customers first order date?"
+#####how would you find a customers first order date?
 
 Ok...i thought let me sort the colums by order date then customer. But ok how do I get the first order date for each customer. I racked my brain and no matter how I sliced the data it just wouldn't work. 
 
