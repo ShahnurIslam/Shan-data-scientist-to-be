@@ -44,7 +44,11 @@ It made me realise how much I need to learn about SQL.
 Ever since then I've practiced more, read more but still have a long way to go.
 
 Here are a few things I plan to learn and will cover in the next post
+
 -Segmentation
+
 -Windows functions
+
 -Stored procedures
+
 -Rank
