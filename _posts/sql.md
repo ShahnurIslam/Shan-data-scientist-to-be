@@ -23,20 +23,19 @@ However it does have its pitfall.
 -Whatever goes into the data will come out. Or as programmers like to say 'rubbish in = rubbish out.
 -For more complicated questions queries can become quite large.
 
-I'm not going to be teaching SQL in this blog as that's not why I started it. There are plenty of places online that good tutorals already so google 'SQL tutorials'and you should find them.
+I'm not going to be teaching SQL in this blog as that's not why I started it. There are plenty of places online that have good tutorals already so just Google 'SQL tutorials'and you should find them.
 
-However I will recommend the site 
+However I will recommend the site [SQL ZOO](http://sqlzoo.net/). They do have tutorials on there but I recommend the site for the assessment examples. Which asks you questions about a database and you need to write queries to answer them. I alway find the best way to learn is by doing. 
 
-I remember picking it up in the first few years of my career and realis
+When i first started learning SQL a few years ago, i thought to mself 'I'm good at this' despite only doing simple joins 
 
-Any who 
+I remember doing a SQL test once in the very early days of my career. it was a simple question:
 
-A good site i use for practice is SQL zoo
+#####"how would you find a customers first order date?"####
 
-Varying languages mysql, postgres SQL, t SQL various types but do the same thing.
 
-I remember doing a SQL test once in the very early days. How would you find
 
+Will look at in another post:
 Windows functions
 Stored procedures
 Rank
