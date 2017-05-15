@@ -1,6 +1,5 @@
 ---
 layout: post
-published: true
 comments: true
 title: SQL part 1 of ?
 tags:
