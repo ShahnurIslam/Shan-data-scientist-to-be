@@ -21,7 +21,7 @@ https://pypi.python.org/pypi
 
 I'm going to download the numpy package for Python 3.6 and windows 32
 
-![Download](/img/Python%20Library.PNG)
+![Image](/img/Python%20Library.PNG)
 
 ### **Step 2 Find your pip directory**
 
