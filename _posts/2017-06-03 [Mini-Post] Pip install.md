@@ -28,7 +28,7 @@ I'm going to download the numpy package for Python 3.6 and windows 32
 
 Now we just need the full directory for pip, go into the program folder where you have Python is installed. I happen to have it installed on the C drive but it could be different in your case. A quick shortcut to get the directory of a file is to hold shift and right click the file. You'll see an option 'copy as path', click that
 
-![Image](/img/Copy%20as%20path.PNG)
+![Image](/img/Copy%20as%20path.png)
 
 You'll end up with a directory like the below
 
