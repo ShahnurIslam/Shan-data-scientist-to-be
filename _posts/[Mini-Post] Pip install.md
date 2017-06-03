@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-publish: false
+publish: true
 title: [Mini-Post] Pip install guide
 tags:
   data science
