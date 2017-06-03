@@ -15,7 +15,7 @@ The basic idea is to run the program 'pip' from the command line to and tell it 
 
 Let's run through an example, I use a windows machine so that's the example I'm going to use. 
 
-**Step 1 **
+**Step 1**
 Download the relevant package that matches your version of Python(2 or 3) and OS(operating system) from the site below 
 
 https://pypi.python.org/pypi
