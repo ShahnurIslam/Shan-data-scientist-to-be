@@ -40,6 +40,8 @@ C:/Python/Scripts/pip.exe
 
 ### **Step 3 Start the command line from the downloaded folder**
 
+![Image](/img/Open%20Command%20window.png)
+
 
 Similar to what we did above, find the folder you downloaded the python package to. 
 Hold shift and right click the folder you should see an image 
