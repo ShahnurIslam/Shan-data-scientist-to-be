@@ -48,7 +48,9 @@ Hold shift and right click the folder you should see an option "open command win
 
 ### **Step 4 Install python package**
 Once the commande line window is open paste the pip directory we found earlier.
+
 Add the word "install" on the end with a space.
+
 Now we just need the name of the package, instead of copy and pasting the name of the package. A nice shortcut the command window has if you type the first few letters of the python package in this case "nump" and  press tab it'll shift through the files in the current directory. One you've selected the right file just hit enter and you should see the below
 
 
