@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: [Mini-Post]Pip install guide
+title: Pip install guide[Mini-Post]
 tags:
   data science
   python
