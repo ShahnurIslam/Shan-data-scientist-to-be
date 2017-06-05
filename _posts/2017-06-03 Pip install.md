@@ -1,12 +1,11 @@
 ---
 layout: post
 comments: true
-title: [Mini-Post] Pip install guide
+title: Pip install guide
 tags:
   data science
   python
 ---
-
 Basically I thought it would be useful to mention this as I found it a bit difficult to find a step by step guide on how to install python libraries if you don't have a huge understanding of command line functions.
 
 **The basic idea is we're telling the command line to run the program 'pip' and tell it to install the python library you desire.**
