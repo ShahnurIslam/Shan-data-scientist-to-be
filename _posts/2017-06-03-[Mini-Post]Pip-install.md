@@ -8,7 +8,12 @@ tags:
   python
 subtitle: Quick guide to installing Python libraries
 ---
-Basically I thought it would be useful to mention this as I found it a bit difficult to find a step by step guide on how to install python libraries if you don't have a huge understanding of command line functions.
+
+I will get back to the SQL posts but thought I would post something that could be useful to others. If you want to use Python for Data Science you will need additional python libraries.
+
+I don't have a huge understanding of command line functions and I found it a bit difficult to find a step by step guide on how to install python libraries 
+
+
 
 **The basic idea is we're telling the command line to run the program 'pip' and tell it to install the python library you desire.**
 
@@ -53,10 +58,6 @@ Once the commande line window is open paste the pip directory we found earlier.
 Add the word "install" on the end with a space.
 
 Now we just need the name of the package, instead of copy and pasting the name of the package. A nice shortcut the command window has if you type the first few letters of the python package in this case "nump" and  press tab it'll shift through the files in the current directory. One you've selected the right file just hit enter and you should see the below
-
-
-
-image
 
 
 
