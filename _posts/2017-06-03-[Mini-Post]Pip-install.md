@@ -13,9 +13,8 @@ I will get back to the SQL posts but thought I would post something that could b
 
 I don't have a huge understanding of command line functions and I found it a bit difficult to find a step by step guide on how to install python libraries 
 
-
-
 **The basic idea is we're telling the command line to run the program 'pip' and tell it to install the python library you desire.**
+
 
 Let's run through an example, I use a windows machine so that's the example I'm going to use. 
 
@@ -60,9 +59,9 @@ Add the word "install" on the end with a space.
 Now we just need the name of the package, instead of copy and pasting the name of the package. A nice shortcut the command window has if you type the first few letters of the python package in this case "nump" and  press tab it'll shift through the files in the current directory. One you've selected the right file just hit enter and you should see the below
 
 
+[image!](/img/CMD%20install%20numpy.PNG)
 
 
 
+Shan
 
-You also need the full directory of pip where it was intalled
-"C:/Users/shahnur islam/AppData/Local/Programs/Python/Python36/Scripts/pip" 
