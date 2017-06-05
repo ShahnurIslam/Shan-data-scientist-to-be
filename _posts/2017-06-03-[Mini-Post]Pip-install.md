@@ -5,6 +5,7 @@ title: Pip install guide[Mini-Post]
 tags:
   data science
   python
+subtitle: Quick guide to installing Python libraries
 ---
 Basically I thought it would be useful to mention this as I found it a bit difficult to find a step by step guide on how to install python libraries if you don't have a huge understanding of command line functions.
 
