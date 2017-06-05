@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: First post!
 tags: [data science]
+subtitle: First of many I hope!
 ---
 
 You start a blog and then you can't decide what to write about in your first post. After mulling it over I decided I would write why I want to be a data scientist and show any cool things I've seen. 
@@ -12,7 +13,7 @@ You start a blog and then you can't decide what to write about in your first pos
 I first discovered data science accidently while perusing courses on Udemy when I was looking for courses to improve my SQL skills.
 The course was only a tenner so I thought why not since it had the word **'data'** involved. I started the course and realised this encompasses almost everything I want in a role whilst not wasting my years of experience an analyst. It involves analysis, programming, statistics and sharing insights with clients/shareholders. 
 
-I then started looking for more data science courses and found one on Coursera. If you have never heard of Coursera before, they have online courses taught by Universities and you can get a certificate with a university stamp on there. The course I found was called [Data Science Specialisation](https://www.coursera.org/specializations/jhu-data-science) taught by John Hopkins University. I finished the first module quite quickly as it was based of general data idioms which I had learnt in my job. The second course took a lot longer as I was getting married last summer and did not have the time to finish it in the recommended period. In addition, it was teaching me a new programming language so learning new syntaxes took a while.
+I then started looking for more data science courses and found one on Coursera. If you have never heard of Coursera before, they have online courses taught by Universities and you can get a certificate with a university stamp on there. The course I found was called [Data Science Specialisation](https://www.coursera.org/specializations/jhu-data-science) taught by John Hopkins University. I finished the first module quite quickly as it was based on general data idioms which I had learnt in my job. The second course took a lot longer as I was getting married last summer and did not have the time to finish it in the recommended period. In addition, it was teaching me a new programming language so learning new syntaxes took a while.
 
 Only issue I have with Coursera is, each module has weekly assignments and quizzes you need to do. Now, I don't have the time to meet these weekly deadlines so I've held off finishing off the rest of the specialisation. 
 I am continuing to learn programming though including both Python and R as I don't want to limit myself. I think both have strengths and weaknesses but my preferred language is R.
