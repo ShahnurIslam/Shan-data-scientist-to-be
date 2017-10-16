@@ -1,4 +1,13 @@
-
+---
+layout: post
+comments: true
+published: false
+title: G1 Climax
+subtitle: Python Work
+tags:
+  data science
+  Python
+---
 ![G127](G1271.jpg)
 
 Basically I will give the SQL posts a break for now and wanted to focus on something else.
