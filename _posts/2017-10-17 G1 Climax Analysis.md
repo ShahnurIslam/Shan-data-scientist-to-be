@@ -10,13 +10,13 @@ tags:
 ---
 ![G127](G1271.jpg)
 
-Basically I will give the SQL posts a break for now and wanted to focus on something else.
+Here's a post slightly different to the other stuff I've posted
 
 People who work in Data Science tend to work in programming languages R or Python. I've been learning both languages over the last two years and at the moment I'm trying to get better at my Python. One of things people say is to get better at data science is to work on data that you have an interest in. 
 
-One of my main passions in life has been wrestling, I've watched for the last 19 years which when you write down is actually quite scary. In this case, I decided do some analysis on Japanese Wrestling! In particular the G1 Climax tournament.
+One of my main passions in life has been wrestling (which my wife says is lame).  I've watched for the last 19 years which when you write down is actually quite scary. In this case, I decided do some analysis on Japanese Wrestling! In particular, the G1 Climax tournament.
 
-The G1 Climax is an annual Japanase wrestling tournament that's held every summer over 20 days. Rather than a simple knockout tournament it's a league made up two blocks(named A block & B block) each consisting of 20 wrestlers. The winner of each block then face off and the winner goes to headline wrestle kingdom in January.
+The G1 Climax is an annual Japanese wrestling tournament that's held every summer over 20 days. Rather than a simple knockout tournament it's a league made up two blocks (named A block & B block) each consisting of 20 wrestlers. The winner of each block then face off and the winner goes to headline wrestle kingdom in January.
 
 The below allows me to showcase some of skills and explain a few things about Python
 
@@ -38,11 +38,8 @@ sns.set_style('white')
 ```
 
 Here are some potential things to look at:
-Who on average has the longest time?
-Does a wrestler style, weight, momentum make a difference?
-Does Dave Metlzer's rating correlate with match time or any other variables?
-If they won the last match are they going to win the next one?
-
+Who on average has highest match rating?
+Does Dave Meltzer's rating correlate with match time or any other variables?
 
 Let's start off by reading the csv file with the wrestler's names and which block they're in.
 
@@ -65,7 +62,7 @@ df.info() #use the dataframe propetry .info() to give us information on the data
     memory usage: 240.0+ bytes
     
 
-The information above tells us that the dataframe only contain 10 entries with no null objects which is good to see. We can just type in **df** into the console and see what the whole dataframe looks like. Of course if we had more rows we wouldn't be able to do this and would use *df.head()*
+The information above tells us that the data frame only contains 10 entries with no null objects which is good to see. We can just type in **df** into the console and see what the whole data frame looks like. Of course if we had more rows we wouldn't be able to do this and would use *df.head()*
 
 
 ```python
@@ -155,7 +152,7 @@ df
 
 
 I noticed that some of the wrestler's name have capitals while others don't. Let's convert all the names to upper case.
-We use the dataframe applymap which applies a function to every cell in a dataframe and rather than writing a whole function we will just create one inside also know as an anonymous function.
+We use the data frame method applymap which applies a function to every cell in a data frame and rather than writing a whole function we will just create one inside in the applymap also known as an anonymous function.
 
 
 ```python
@@ -245,7 +242,7 @@ df # Let's print the dataframe to see if that's worked
 
 
 
-Let's now create the league tables for each block. First let's seperate the wrestler from dataframe **df** in two dataframes called **A_Block** and **B_Block**
+Let's now create the block tables for each block. First let's separate the wrestler from data frames **df** in two data frames called **A_Block** and **B_Block**
 
 
 ```python
@@ -255,9 +252,9 @@ B_Block = pd.DataFrame(df['B Block'])
 B_Block.columns = ['Wrestler']
 ```
 
-Ok we've now got two separate dataframes called *A_Block* & *B_Block*. Let's add the usual fields you'd see in any sports league **'Matches','Wins','Losses','Draws'**. 
+Ok we've now got two separate data frames called *A_Block* & *B_Block*. Let's add the usual fields you'd see in any sports league **'Matches','Wins','Losses','Draws'**. 
 
-I'm also going to include **'Match Time'** as the total time a wrestler has competed. I also plan to add another column called **'DMR'**, which stands for Dave Meltzer Rating. Dave Meltzer is a 30 year wrestling journalist whose ratings of matches are out of five and is held in high standing in the wrestling community. By default I've set these to NaN
+I'm also going to include **'Match Time'** as the total time a wrestler has competed. I also plan to add another column called **'DMR'**, which stands for Dave Meltzer Rating. Dave Meltzer is a 30 year wrestling journalist whose ratings of matches are out of five and is held in high standing in the wrestling community. By default, I've set these to NaN
 
 
 ```python
@@ -406,9 +403,9 @@ math.factorial(10)/(math.factorial(2)*math.factorial(10-2))
 
 Ok there are 45 possible matches for each block.
 
-I was going to write a custom function to list all these possible matches but luckily the python community is so large someone has already done this for me! The function I'm going to use is within the python library itertools. We will use the function combinations as we're looking for all unique combinations. The combination function takes a series as a paremeter so we can't simply pass in the data frame and we need to select the Wrestler column as a series.
+I was going to write a custom function to list all these possible matches but luckily the python community is so large someone has already done this for me! The function I'm going to use is within the python library itertools. We will use the function combinations as we're looking for all unique combinations. The combination function takes a series as a parameter so we can't simply pass in the data frame and we need to select the Wrestler column as a series.
 
-Using the combination function I'll create two new dataframes called **A_matches** and **B_matches**
+Using the combination function, I'll create two new data frames called **A_matches** and **B_matches**
 
 
 ```python
@@ -688,7 +685,7 @@ B_matches.head(5)
 
 
 
-Ok we now have a table of the potential matches and all the additional fields. I decided to write two custom functions, one that updates the matches dataframes with the results and the other to update the block table. I didn't want to type out the full names either as the spellings of Japanese names can be quite hard. So the function does a partial match and prints out the names it's matched as a check
+Ok we now have a table of the potential matches and all the additional fields. I decided to write two custom functions, one that updates the matches data frames with the results and the other to update the block table. I didn't want to type out the full names either as the spellings of Japanese names can be quite hard. So the function does a partial match and prints out the names it's matched as a check
 
 
 ```python
@@ -696,7 +693,7 @@ def updateresults(df,winner,loser, time, DMR, draw = False):#We want to find the
     winner = winner.upper() #Tidy up the names
     loser = loser.upper()
     # Search for them in the results table and return their position
-    #I really should an error handler but I'm being lazy and this function is a one time use
+    #I really should add an error handler but I'm being lazy and this function is a onetime use
     w1 = list(df[df['Wrestler 1'].str.contains(winner)].index) 
     w2 = list(df[df['Wrestler 2'].str.contains(winner)].index)
     w3 = w1 + w2
@@ -779,7 +776,7 @@ def updatetable():# Function to update the table standings after match results
     B_Block[cols] = B_Block[cols].applymap(np.int64)
 ```
 
-As a test let's update our dataframes with Day 1 results. I was surprised to see Zack Sabre win over Tanahashi considering he's like the Japan John Cena. If you didn't understand that I don't think you'd be reading this!
+As a test let's update our data frames with results from day 1. I was surprised to see Zack Sabre win over Tanahashi considering he's like the Japan John Cena. If you didn't understand that I don't think you'd be reading this far!
 
 
 ```python
@@ -1992,7 +1989,7 @@ B_Block
 
 
 
-Let's have a look at the block results in Graph form, using the seaborn package
+Let's have a look at the block results in Graph form, using the Seaborn package
 
 
 ```python
@@ -2021,7 +2018,7 @@ plt.show()
 ![png](output_40_1.png)
 
 
-The winner of the A_Block was Kenny Omega and the B Block was Tetsuya Naito who are two of the biggest wrestlers there so not a surprise*(Yes I know wrestling is fake as my wife keeps saying)*
+The winner of the A Block was Kenny Omega and the B Block was Tetsuya Naito who are two of the biggest wrestlers there so not a surprise*(Yes I know wrestling is fake as my wife keeps saying) *
 
 Ok who was the highest rated star of the tournament
 
@@ -2042,7 +2039,7 @@ plt.show()
 ![png](output_43_0.png)
 
 
-Ok so the top two wrestlers were Tomohiro Ishii and Kazuchika Okada. I wasn't surprised with Okada who's doing amazing this year but Ishii was a suprise. Yano had the worst overall rating which kind of makes sense as he's more of a comedy act and not a competitive wrestler.
+Ok so the top two wrestlers were Tomohiro Ishii and Kazuchika Okada. I wasn't surprised with Okada who's doing amazing this year but Ishii was a surprise. Yano had the worst overall rating which kind of makes sense as he's more of a comedy act and not a competitive wrestler.
 
 One of the potential questions I had was if a good Meltzer rating related to the match length. Let's plot these two against each other. 
 
@@ -2093,7 +2090,7 @@ Ok so in our model, 58% of the variability in Match ratings can be explained usi
 
 **But like I said this doesn't account for the context of the matches despite the good fit.**
 
-Hopefully this wasn't too complicated but I wanted to do some analysis some data that I was interested in. I'll most likely add to this post in the future as I learn more modelling tools. I imagine I'd try to make a model that accounts for the wrestler in the match. A catergorical model.
+Hopefully this wasn't too complicated but I wanted to do some analysis some data that I was interested in. I'll most likely add to this post in the future as I learn more modelling tools. I imagine I'd try to make a model that accounts for the wrestler in the match.  Most likely a categorical model.
 
 Thanks for reading this post if you did!
 
