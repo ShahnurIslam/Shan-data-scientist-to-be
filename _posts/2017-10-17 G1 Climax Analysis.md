@@ -8,13 +8,15 @@ tags:
   data science
   Python
 ---
-![G127](G1271.jpg)
+![G127](/img/G1271.jpg)
 
-Here's a post slightly different to the other stuff I've posted
+Here's a post slightly different to the other posts so far.
+
+One of my main passions in life has been wrestling (which my wife says is lame).  I've watched for the last 19 years which when you write down is actually quite scary. In this case, I decided do some analysis on Japanese Wrestling! In particular, the G1 Climax tournament.
 
 People who work in Data Science tend to work in programming languages R or Python. I've been learning both languages over the last two years and at the moment I'm trying to get better at my Python. One of things people say is to get better at data science is to work on data that you have an interest in. 
 
-One of my main passions in life has been wrestling (which my wife says is lame).  I've watched for the last 19 years which when you write down is actually quite scary. In this case, I decided do some analysis on Japanese Wrestling! In particular, the G1 Climax tournament.
+
 
 The G1 Climax is an annual Japanese wrestling tournament that's held every summer over 20 days. Rather than a simple knockout tournament it's a league made up two blocks (named A block & B block) each consisting of 20 wrestlers. The winner of each block then face off and the winner goes to headline wrestle kingdom in January.
 
@@ -73,19 +75,7 @@ df
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -384,6 +374,7 @@ B_Block.head(1)#B block
 
 How many potential matches per block? This is a form of permutations, well actually combinations.
 We can use the combinations formula below where my ***n=10*** & ***r=2***
+
 
 
 $C(n,r)=\frac{n!}{(n-r)!r!}$
@@ -2011,11 +2002,11 @@ plt.show()
 ```
 
 
-![png](output_40_0.png)
+![png](/img/output_40_0.png)
 
 
 
-![png](output_40_1.png)
+![png](/img/output_40_1.png)
 
 
 The winner of the A Block was Kenny Omega and the B Block was Tetsuya Naito who are two of the biggest wrestlers there so not a surprise*(Yes I know wrestling is fake as my wife keeps saying) *
@@ -2036,7 +2027,7 @@ plt.show()
 ```
 
 
-![png](output_43_0.png)
+![png](/img/output_43_0.png)
 
 
 Ok so the top two wrestlers were Tomohiro Ishii and Kazuchika Okada. I wasn't surprised with Okada who's doing amazing this year but Ishii was a surprise. Yano had the worst overall rating which kind of makes sense as he's more of a comedy act and not a competitive wrestler.
@@ -2052,7 +2043,7 @@ plt.show()
 ```
 
 
-![png](output_46_0.png)
+![png](/img/output_46_0.png)
 
 
 OK so some correlation between the two which makes some sense. Obviously this doesn't account for who's in the match and what actually happened in it. Let's see what our equation would look like
