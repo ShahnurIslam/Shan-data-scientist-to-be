@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-published: false
+published: true
 title: G1 Climax
 subtitle: Python Work
 tags:
