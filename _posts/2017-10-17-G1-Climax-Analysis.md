@@ -8,7 +8,6 @@ tags:
   data science
   Python
 ---
-![G127](/img/G1271.jpg)
 
 Here's a post  that is slightly different to the other posts that I've done so far. Rather than having a step by step tutorial on how to do something. The below allows me to grow my python skills and explain a few things about Python
 
@@ -17,6 +16,7 @@ People who work in Data Science tend to work in programming languages R or Pytho
 
 One of my main passions in life has been wrestling (which my wife says is lame).  I've watched wrestling for the last 19 years which when you write down is actually quite scary. In this case, I decided do some analysis on Japanese Wrestling! In particular, the G1 Climax tournament.
 
+![G127](/img/G1271.jpg)
 
 The G1 Climax is an annual Japanese wrestling tournament that's held every summer over 20 days. Rather than a simple knockout tournament it's a league made up of two blocks (named A block & B block) each consisting of 20 wrestlers. The winner of each block then face off and the winner goes to headline wrestle kingdom in January.
 
