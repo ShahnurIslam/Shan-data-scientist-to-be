@@ -10,8 +10,7 @@ tags:
 ---
 ![G127](/img/G1271.jpg)
 
-Here's a post slightly different to the other posts so far.
-
+Here's a post  that is slightly different to the other posts that I've done so far. Rather than having a step by step tutorial on how to do something. The below allows me to grow my python skills and explain a few things about Python
 
 
 People who work in Data Science tend to work in programming languages R or Python. I've been learning both languages over the last two years and at the moment I'm trying to get better at my Python. One of things people say is to get better at data science is to work on data that you have an interest in. 
@@ -21,7 +20,7 @@ One of my main passions in life has been wrestling (which my wife says is lame).
 
 The G1 Climax is an annual Japanese wrestling tournament that's held every summer over 20 days. Rather than a simple knockout tournament it's a league made up of two blocks (named A block & B block) each consisting of 20 wrestlers. The winner of each block then face off and the winner goes to headline wrestle kingdom in January.
 
-The below allows me to showcase some of skills and explain a few things about Python
+
 
 Let's start off with importing all the relevant libraries which will be updated as we go
 
