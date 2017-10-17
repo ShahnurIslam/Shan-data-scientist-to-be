@@ -332,12 +332,10 @@ B_Block.head(1)#B block
 
 
 
-How many potential matches per block? This is a form of permutations, well actually combinations.
-We can use the combinations formula below where my ***n=10*** & ***r=2***
+How many potential matches per block? This is a form of permutations, well actually combinations as the order doesn't matter in this case. We can use the combinations formula below where my ***n=10*** & ***r=2***
 
 
-
-$C(n,r)=\frac{n!}{(n-r)!r!}$
+![Combination_equation](/img/Combination_equation.gif)
 
 
 
@@ -352,7 +350,7 @@ math.factorial(10)/(math.factorial(2)*math.factorial(10-2))
 
 
 
-Ok there are 45 possible matches for each block.
+Ok we have a total of 45 possible matches for each block.
 
 I was going to write a custom function to list all these possible matches but luckily the python community is so large someone has already done this for me! The function I'm going to use is within the python library itertools. We will use the function combinations as we're looking for all unique combinations. The combination function takes a series as a parameter so we can't simply pass in the data frame and we need to select the Wrestler column as a series.
 
@@ -643,8 +641,7 @@ def updateresults(df,winner,loser, time, DMR, draw = False):#We want to find the
 
 ```
 
-
-```python
+  ```python
 def updatetable():# Function to update the table standings after match results
     global A_Block
     global B_Block
@@ -690,6 +687,9 @@ def updatetable():# Function to update the table standings after match results
     B_Block = B_Block.sort_values(['Points'],ascending=False).reset_index(drop=True)
     B_Block[cols] = B_Block[cols].applymap(np.int64)
 ```
+  
+
+
 
 As a test let's update our data frames with results from day 1. I was surprised to see Zack Sabre win over Tanahashi considering he's like the Japan John Cena. If you didn't understand that I don't think you'd be reading this far!
 
@@ -1939,7 +1939,7 @@ print("Our Linear equation is " + 'y = {0} * x + {1}'.format(m, b))
     Our Linear equation is y = 0.002155728983767316 * x + 1.8171627906221903
     
 
-Let's see what the mean squared error is and variance score. These will tell us how well our model fit
+Let's see what the mean squared error is and variance score. These calculations tell us how well our model fits the data.
 
 
 
@@ -1957,7 +1957,10 @@ Ok so in our model, 58% of the variability in Match ratings can be explained usi
 
 **But like I said this doesn't account for the context of the matches despite the good fit.**
 
-Hopefully this wasn't too complicated but I wanted to do some analysis some data that I was interested in. I'll most likely add to this post in the future as I learn more modelling tools. I imagine I'd try to make a model that accounts for the wrestler in the match.  Most likely a categorical model.
+Hopefully this wasn't too complicated but I wanted to do analysis on some data that I was interested in. I'll most likely add to this post in the future as I learn more modelling tools that account for more of the variables present.
 
-Thanks for reading this post if you did!
+Thanks for reading this post if you did! Any feedback or tips as always would be greatly appreciated.
+
+Shan
+
 
