@@ -643,7 +643,7 @@ def updateresults(df,winner,loser, time, DMR, draw = False):#We want to find the
 <br/>
 
 <details>
- <summary>Code to update A Block & B Block data frames from their respective match data frames<i><b>Click to expand</b></i></summary>
+ <summary>Code to update A Block & B Block data frames from their respective match data frames <i><b>Click to expand</b></i></summary>
 
   ```python
 def updatetable():# Function to update the table standings after match results
@@ -713,21 +713,14 @@ updateresults(A_matches, 'Tetsuya', 'Kota', '24:41',4.75)
     ZACK SABRE JR.,HIROSHI TANAHASHI
     TETSUYA NAITO,KOTA IBUSHI
     
-
+Let's check out our **A_matches** dataframe to see if the matches were updated
 
 ```python
 A_matches
 ```
 
 <details>
- <summary>Summary</summary>
-
-```js
-const x = 1
-```
-</details>
-
-
+  <summary><b>A_matches <i>CLick to expand</i></b></summary>
 <div>
 
 <table border="1" class="dataframe">
@@ -1244,7 +1237,12 @@ const x = 1
 </table>
 </div>
 
+</details>
 
+
+<br/>
+
+Ok that seems to have worked and our **A_matches** data frame has now been updated with the results from Day 1. Let's check if the **A_Block** data frame has been updated too.
 
 
 ```python
@@ -1385,10 +1383,11 @@ A_Block
 </table>
 </div>
 
+Cool the results have been updated too. Now let's update all our data frames from all 18 days of competition.
 
 
-I'm going to update all the other matches in the below
-
+<details>
+ <summary>Updating all our matches <b><i>Click to expand</b></i></summary>
 
 ```python
 updateresults(B_matches,'Juice','Satoshi', '11:48',3.5) # Day 2
@@ -1581,9 +1580,11 @@ updateresults(B_matches, 'Omega', 'Okada','24:40',6.00)
     TORU YANO,MINORU SUZUKI
     EVIL,SATOSHI KOJIMA
     KENNY OMEGA,KAZUCHIKA OKADA
-    
+</details>
 
-Ok let's check out the block tables
+ <br/>   
+
+Let's look at the results tables and see who came out on top!
 
 
 ```python
