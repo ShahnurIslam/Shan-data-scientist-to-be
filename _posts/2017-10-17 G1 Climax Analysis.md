@@ -1879,7 +1879,7 @@ plt.show()
 ```
 
 
-![png](/img/output_40_0.png)
+![png](/img/chart_1.png)
 
 
 
