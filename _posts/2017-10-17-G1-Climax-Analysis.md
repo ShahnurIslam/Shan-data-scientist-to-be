@@ -3,7 +3,7 @@ layout: post
 comments: true
 published: true
 title: G1 Climax
-subtitle: Python Work
+subtitle: Combining Wrestling with Python
 tags:
   data science
   Python
