@@ -643,7 +643,7 @@ def updateresults(df,winner,loser, time, DMR, draw = False):#We want to find the
 <br/>
 
 <details>
- <summary>Code to update A Block & B Block data frames from their respective match data frames</summary>
+ <summary>Code to update A Block & B Block data frames from their respective match data frames<i><b>Click to expand</b></i></summary>
 
   ```python
 def updatetable():# Function to update the table standings after match results
@@ -719,7 +719,13 @@ updateresults(A_matches, 'Tetsuya', 'Kota', '24:41',4.75)
 A_matches
 ```
 
+<details>
+ <summary>Summary</summary>
 
+```js
+const x = 1
+```
+</details>
 
 
 <div>
