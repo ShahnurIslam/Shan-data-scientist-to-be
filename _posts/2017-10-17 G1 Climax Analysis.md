@@ -1242,7 +1242,7 @@ A_matches
 
 <br/>
 
-Ok that seems to have worked and our **A_matches** data frame has now been updated with the results from Day 1. Let's check if the **A_Block** data frame has been updated too.
+From the above this seems to have worked and our **A_matches** data frame has now been updated with the results from Day 1. Let's check if the **A_Block** data frame has been updated too.
 
 
 ```python
@@ -1383,7 +1383,7 @@ A_Block
 </table>
 </div>
 
-Cool the results have been updated too. Now let's update all our data frames from all 18 days of competition.
+We can see above the *Win,Loss, Draw, Points & DMR* fields have all been updated. Now let's update all our data frames from all 18 days of competition.
 
 
 <details>
@@ -1868,7 +1868,7 @@ B_Block
 
 
 
-Let's have a look at the block results in Graph form, using the Seaborn package
+Looking at a table is fine, but a visual representation is always better. Let's have a look at the block results in graph form, using the Seaborn package
 
 
 ```python
@@ -1897,7 +1897,7 @@ plt.show()
 ![png](/img/output_40_1.png)
 
 
-The winner of the A Block was Kenny Omega and the B Block was Tetsuya Naito who are two of the biggest wrestlers there so not a surprise*(Yes I know wrestling is fake as my wife keeps saying) *
+The winner of the A Block was Kenny Omega and the B Block was Tetsuya Naito who are two of the biggest wrestlers there so not a surprise *(Yes I know wrestling is fake as my wife keeps saying)*
 
 Ok who was the highest rated star of the tournament
 
