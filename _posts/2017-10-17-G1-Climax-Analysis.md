@@ -246,15 +246,12 @@ B_Block['Points'] = np.NAN
 B_Block['Match_Time'] = np.NAN
 B_Block['DMR'] = 0.00
 ```
-
+<br/>
 
 ```python
 A_Block.head(1)#lets use head to see if the table has been set up correctly
 ```
-
 <br/>
-
-
 <div>
 
 <table border="0" class="dataframe">
@@ -287,9 +284,7 @@ A_Block.head(1)#lets use head to see if the table has been set up correctly
 </table>
 </div>
 
-
-
-
+<br/>
 ```python
 B_Block.head(1)#B block
 ```
