@@ -70,12 +70,71 @@ The information above tells us that the data frame only contains 10 entries with
 ```python
 df
 ```
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+<div>
+
+
+<table border="0" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A Block</th>
+      <th>B Block</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Hiroshi Tanahashi</td>
+      <td>Kazuchika Okada</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Togi Makabe</td>
+      <td>Toru Yano</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Tomohiro Ishii</td>
+      <td>Satoshi Kojima</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Hirooki Goto</td>
+      <td>Michael Elgin</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>YOSHI-HASHI</td>
+      <td>Juice Robinson</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Bad Luck Fale</td>
+      <td>Tama Tonga</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Yuji Nagata</td>
+      <td>SANADA</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Zack Sabre Jr.</td>
+      <td>EVIL</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Kota Ibushi</td>
+      <td>Minoru Suzuki</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Tetsuya Naito</td>
+      <td>Kenny Omega</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 
 
