@@ -712,7 +712,7 @@ A_matches
 ```
 
 <details>
-  <summary><b>A_matches <i>CLick to expand</i></b></summary>
+  <summary><b>A_matches <i>Click to expand</i></b></summary>
 <div>
 
 <table border="1" class="dataframe">
