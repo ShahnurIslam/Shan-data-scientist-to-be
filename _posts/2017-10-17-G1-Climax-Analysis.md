@@ -252,7 +252,7 @@ B_Block['DMR'] = 0.00
 A_Block.head(1)#lets use head to see if the table has been set up correctly
 ```
 
-
+<br/>
 
 
 <div>
@@ -296,7 +296,7 @@ B_Block.head(1)#B block
 
 
 
-
+<br/>
 <div>
 
 <table border="1" class="dataframe">
