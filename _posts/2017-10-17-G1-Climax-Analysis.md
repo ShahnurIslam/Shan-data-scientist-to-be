@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-published: false
+published: true
 title: G1 Climax
 subtitle: Combining Wrestling with Python
 tags:
@@ -601,7 +601,7 @@ B_matches.head(5)
 Ok we now have a table of the potential matches and all the additional fields. I decided to write two custom functions, one that updates the matches data frames with the results and the other to update the block table. I didn't want to type out the full names either as the spellings of Japanese names can be quite hard. So the function does a partial match and prints out the names it's matched as a check
 
 <details>
-  <summary>Code for functions to update Match data frame <i><b>Click to expand</b></i></summary>
+  <summary><code>Code for functions to update Match data frame <i><b>Click to expand</b></i></summary>
 
 ```python
 def updateresults(df,winner,loser, time, DMR, draw = False):#We want to find the index for the match for these two wrestlers
@@ -639,6 +639,7 @@ def updateresults(df,winner,loser, time, DMR, draw = False):#We want to find the
         df.iloc[i,6] = True       
     updatetable()
 ```
+</code>
 </details>
 <br/>
 
