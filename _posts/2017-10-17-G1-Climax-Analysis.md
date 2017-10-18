@@ -148,7 +148,7 @@ df # Let's print the dataframe to see if that's worked
 ```
 
 
-<div>
+<div font-size: 1em;>
 
 <table border="0" class="dataframe">
   <thead>
