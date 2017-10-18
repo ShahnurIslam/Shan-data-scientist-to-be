@@ -70,7 +70,7 @@ The information above tells us that the data frame only contains 10 entries with
 ```python
 df
 ```
-<div font-size: 1em;>
+<div>
 
 
 <table border="0" class="dataframe">
@@ -148,7 +148,7 @@ df # Let's print the dataframe to see if that's worked
 ```
 
 
-<div font-size: 1em;>
+<div>
 
 <table border="0" class="dataframe">
   <thead>
