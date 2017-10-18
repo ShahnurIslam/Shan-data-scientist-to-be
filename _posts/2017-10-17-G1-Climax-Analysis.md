@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-published: true
+published: false
 title: G1 Climax
 subtitle: Combining Wrestling with Python
 tags:
