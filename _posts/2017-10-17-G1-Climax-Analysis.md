@@ -601,7 +601,7 @@ B_matches.head(5)
 Ok we now have a table of the potential matches and all the additional fields. I decided to write two custom functions, one that updates the matches data frames with the results and the other to update the block table. I didn't want to type out the full names either as the spellings of Japanese names can be quite hard. So the function does a partial match and prints out the names it's matched as a check
 
 <details>
-  <summary><code>Code for functions to update Match data frame <i><b>Click to expand</b></i></summary>
+  <summary>Code for functions to update Match data frame <i><b>Click to expand</b></i></summary>
 
 ```python
 def updateresults(df,winner,loser, time, DMR, draw = False):#We want to find the index for the match for these two wrestlers
@@ -1389,112 +1389,112 @@ We can see above the *Win,Loss, Draw, Points & DMR* fields have all been updated
 
 <details>
  <summary>Updating all our matches <b><i>Click to expand</b></i></summary>
-
-```python
-updateresults(B_matches,'Juice','Satoshi', '11:48',3.5) # Day 2
-updateresults(B_matches,'Tonga','Elgin', '13:46',3.25)
-updateresults(B_matches,'Sanada','Evil','15:48',4.00)
-updateresults(B_matches,'Okada','Yano', '10:31',3.25)
-updateresults(B_matches,'Omega','Suzuki','21:24',4.75)
-
-updateresults(A_matches, 'Hirooki', 'Nagata', '15:02',4.50)# Day3
-updateresults(A_matches,'ISHII', 'Togi', '15:51',4.50)
-updateresults(A_matches,'Ibushi', 'Zack', '15:51',4.50)
-updateresults(A_matches,'Tanaha', 'Fale', '11:05',3.50)
-updateresults(A_matches,'Tetsuya', 'Yoshi', '22:19',4.25)
-
-updateresults(B_matches, 'Yano', 'Kojima','09:12',1.50) # Day 4
-updateresults(B_matches, 'Evil', 'Juice','11:46',4.00)
-updateresults(B_matches, 'Suzuki', 'Sanada','11:22',3.75)
-updateresults(B_matches, 'Omega', 'Tama','11:42',3.50)
-updateresults(B_matches, 'Okada', 'Elgin','25:49',4.75)
-
-
-updateresults(A_matches, 'Zack', 'Yoshi','11:48',3.50) # Day 5
-updateresults(A_matches, 'Hiroshi', 'YUji', '14:47',4.50)
-updateresults(A_matches, 'Fale', 'Tetsuya', '11:55',2.50)
-updateresults(A_matches, 'Kota', 'Ishii', '17:14',4.50)
-updateresults(A_matches, 'Togi', 'Hirooki','16:55',4.00)
-
-updateresults(B_matches, 'Elgin', 'Kojima','13:09',3.75) # Day 6
-updateresults(B_matches, 'Evil', 'Tonga','10:27',2.75)
-updateresults(B_matches, 'Suzuki', 'Juice', '11:23',3.25)
-updateresults(B_matches, 'Omega', 'Yano', '11:31',1.00)
-updateresults(B_matches, 'Okada', 'Sanada', '20:49',4.25)
-
-
-updateresults(A_matches, 'Ishii', 'Yoshi', '15:43',3.75) #Day 7
-updateresults(A_matches, 'Zack', 'Fale', '09:02',2.50)
-updateresults(A_matches, 'Togi', 'Kota', '13:20',4.00)
-updateresults(A_matches, 'Tetsuya', 'Nagata', '15:16',4.00)
-updateresults(A_matches, 'Hiroshi', 'hirooki', '01:22',3.25)
-
-updateresults(B_matches, 'Tonga', 'Juice','10:36',2.75)# Day 8
-updateresults(B_matches, 'Sanada', 'Toru', '04:33',3.00)
-updateresults(B_matches, 'Evil', 'Suzuki', '08:38',3.50)
-updateresults(B_matches, 'Okada', 'Kojima', '15:26',4.25)
-updateresults(B_matches, 'Elgin', 'Omega', '24:39',4.75)
-
-updateresults(A_matches, 'Togi', 'Nagata', '10:45',3.50)# Day 9
-updateresults(A_matches, 'Fale', 'Kota', '11:37',3.50)
-updateresults(A_matches, 'Hirooki', 'Zack','10:10',3.50)
-updateresults(A_matches, 'Hiroshi', 'Yoshi', '13:34',3.75) 
-updateresults(A_matches, 'Ishii', 'Tetsuya', '20:58',4.50)
-
-updateresults(B_matches, 'Evil', 'Yano', '01:33',0.50) # Day 10
-updateresults(B_matches, 'Suzuki', 'Tama','10:22',3.50)
-updateresults(B_matches, 'Sanada', 'Elgin', '15:06',4.00)
-updateresults(B_matches, 'Omega', 'Kojima','12:42',3.50)
-updateresults(B_matches, 'Okada', 'Juice', '20:29',3.50)
-
-updateresults(A_matches, 'Yoshi', 'Fale', '10:21',3.00)# Day 11
-updateresults(A_matches, 'Zack', 'Togi', '09:30',2.75)
-updateresults(A_matches, 'Ishii', 'Nagata', '13:51',4.50)
-updateresults(A_matches, 'Naito', 'Goto', '13:30',4.00)
-updateresults(A_matches, 'Ibushi', 'Hiroshi', '20:40',4.75) 
-
-updateresults(B_matches, 'Sanada', 'Juice', '13:48',3.00) # Day 12
-updateresults(B_matches, 'Yano', 'Elgin', '02:58',1.00)
-updateresults(B_matches, 'Suzuki', 'Kojima', '10:13',3.00)
-updateresults(B_matches, 'Okada', 'Tonga','11:22',3.25)
-updateresults(B_matches, 'Omega', 'Evil','23:33',4.00)
-
-updateresults(A_matches, 'Ibushi', 'Nagata', '15:54',4.25) # Day 13
-updateresults(A_matches, 'Fale', 'ishii', '11:58',3.50)
-updateresults(A_matches, 'Goto', 'Yoshi', '11:26',3.25)
-updateresults(A_matches, 'Naito', 'Zack', '14:20',3.75)
-updateresults(A_matches, 'Tanahashi', 'Togi', '13:34',3.50)
-
-updateresults(B_matches, 'Yano', 'Tonga', '03:15',1.00) # Day 14
-updateresults(B_matches, 'Satoshi', 'Sanada', '12:09',3.50)
-updateresults(B_matches, 'Elgin', 'Suzuki', '11:13',3.00)
-updateresults(B_matches, 'Juice', 'Omega','15:36',3.75)
-updateresults(B_matches, 'Evil', 'Okada','22:47',4.25)
-
-updateresults(A_matches, 'Nagata', 'Zack', '15:08',3.50) # Day 15
-updateresults(A_matches, 'Ibushi', 'Yoshi', '14:28',3.50) 
-updateresults(A_matches, 'Fale', 'Goto', '09:34',2.25)
-updateresults(A_matches, 'Naito', 'Makabe', '11:31',3.25)
-updateresults(A_matches, 'Tanahashi', 'Ishii', '23:30',4.5)
-
-updateresults(B_matches, 'Tonga', 'Koji', '10:43',2.75) # Day 16
-updateresults(B_matches, 'Juice', 'Yano', '04:25',1.50)
-updateresults(B_matches, 'Elgin', 'Evil', '11:07',4.00)
-updateresults(B_matches, 'Omega', 'Sanada','15:03',3.75)
-updateresults(B_matches, 'Okada', 'Suzuki','30:00',4.75,True)
-
-updateresults(A_matches, 'Fale', 'Nagata', '11:56',4.25) # Day 17
-updateresults(A_matches, 'Makabe', 'Yoshi', '11:28',3.50) 
-updateresults(A_matches, 'Zack', 'Ishii', '15:22',4.25)
-updateresults(A_matches, 'Goto', 'Ibushi', '11:03',4.25)
-updateresults(A_matches, 'Naito', 'Tanahashi', '26:41',5.00)
-
-updateresults(B_matches, 'Juice', 'Elgin', '11:48',3.75) # Day 18
-updateresults(B_matches, 'Tonga', 'Sanada', '11:59',3.75)
-updateresults(B_matches, 'Yano', 'Suzuki', '06:56',3.00)
-updateresults(B_matches, 'Evil', 'Satoshi','14:23',4.00)
-updateresults(B_matches, 'Omega', 'Okada','24:40',6.00)
+  
+  ```python
+  updateresults(B_matches,'Juice','Satoshi', '11:48',3.5) # Day 2
+  updateresults(B_matches,'Tonga','Elgin', '13:46',3.25)
+  updateresults(B_matches,'Sanada','Evil','15:48',4.00)
+  updateresults(B_matches,'Okada','Yano', '10:31',3.25)
+  updateresults(B_matches,'Omega','Suzuki','21:24',4.75)
+  
+  updateresults(A_matches, 'Hirooki', 'Nagata', '15:02',4.50)# Day3
+  updateresults(A_matches,'ISHII', 'Togi', '15:51',4.50)
+  updateresults(A_matches,'Ibushi', 'Zack', '15:51',4.50)
+  updateresults(A_matches,'Tanaha', 'Fale', '11:05',3.50)
+  updateresults(A_matches,'Tetsuya', 'Yoshi', '22:19',4.25)
+  
+  updateresults(B_matches, 'Yano', 'Kojima','09:12',1.50) # Day 4
+  updateresults(B_matches, 'Evil', 'Juice','11:46',4.00)
+  updateresults(B_matches, 'Suzuki', 'Sanada','11:22',3.75)
+  updateresults(B_matches, 'Omega', 'Tama','11:42',3.50)
+  updateresults(B_matches, 'Okada', 'Elgin','25:49',4.75)
+  
+  updateresults(A_matches, 'Zack', 'Yoshi','11:48',3.50) # Day 5
+  updateresults(A_matches, 'Hiroshi', 'YUji', '14:47',4.50)
+  updateresults(A_matches, 'Fale', 'Tetsuya', '11:55',2.50)
+  updateresults(A_matches, 'Kota', 'Ishii', '17:14',4.50)
+  updateresults(A_matches, 'Togi', 'Hirooki','16:55',4.00)
+  
+  updateresults(B_matches, 'Elgin', 'Kojima','13:09',3.75) # Day 6
+  updateresults(B_matches, 'Evil', 'Tonga','10:27',2.75)
+  updateresults(B_matches, 'Suzuki', 'Juice', '11:23',3.25)
+  updateresults(B_matches, 'Omega', 'Yano', '11:31',1.00)
+  updateresults(B_matches, 'Okada', 'Sanada', '20:49',4.25)
+  
+  updateresults(A_matches, 'Ishii', 'Yoshi', '15:43',3.75) #Day 7
+  updateresults(A_matches, 'Zack', 'Fale', '09:02',2.50)
+  updateresults(A_matches, 'Togi', 'Kota', '13:20',4.00)
+  updateresults(A_matches, 'Tetsuya', 'Nagata', '15:16',4.00)
+  updateresults(A_matches, 'Hiroshi', 'hirooki', '01:22',3.25)
+  
+  updateresults(B_matches, 'Tonga', 'Juice','10:36',2.75)# Day 8
+  updateresults(B_matches, 'Sanada', 'Toru', '04:33',3.00)
+  updateresults(B_matches, 'Evil', 'Suzuki', '08:38',3.50)
+  updateresults(B_matches, 'Okada', 'Kojima', '15:26',4.25)
+  updateresults(B_matches, 'Elgin', 'Omega', '24:39',4.75)
+  
+  updateresults(A_matches, 'Togi', 'Nagata', '10:45',3.50)# Day 9
+  updateresults(A_matches, 'Fale', 'Kota', '11:37',3.50)
+  updateresults(A_matches, 'Hirooki', 'Zack','10:10',3.50)
+  updateresults(A_matches, 'Hiroshi', 'Yoshi', '13:34',3.75) 
+  updateresults(A_matches, 'Ishii', 'Tetsuya', '20:58',4.50)
+  
+  updateresults(B_matches, 'Evil', 'Yano', '01:33',0.50) # Day 10
+  updateresults(B_matches, 'Suzuki', 'Tama','10:22',3.50)
+  updateresults(B_matches, 'Sanada', 'Elgin', '15:06',4.00)
+  updateresults(B_matches, 'Omega', 'Kojima','12:42',3.50)
+  updateresults(B_matches, 'Okada', 'Juice', '20:29',3.50)
+  
+  updateresults(A_matches, 'Yoshi', 'Fale', '10:21',3.00)# Day 11
+  updateresults(A_matches, 'Zack', 'Togi', '09:30',2.75)
+  updateresults(A_matches, 'Ishii', 'Nagata', '13:51',4.50)
+  updateresults(A_matches, 'Naito', 'Goto', '13:30',4.00)
+  updateresults(A_matches, 'Ibushi', 'Hiroshi', '20:40',4.75) 
+  
+  updateresults(B_matches, 'Sanada', 'Juice', '13:48',3.00) # Day 12
+  updateresults(B_matches, 'Yano', 'Elgin', '02:58',1.00)
+  updateresults(B_matches, 'Suzuki', 'Kojima', '10:13',3.00)
+  updateresults(B_matches, 'Okada', 'Tonga','11:22',3.25)
+  updateresults(B_matches, 'Omega', 'Evil','23:33',4.00)
+  
+  updateresults(A_matches, 'Ibushi', 'Nagata', '15:54',4.25) # Day 13
+  updateresults(A_matches, 'Fale', 'ishii', '11:58',3.50)
+  updateresults(A_matches, 'Goto', 'Yoshi', '11:26',3.25)
+  updateresults(A_matches, 'Naito', 'Zack', '14:20',3.75)
+  updateresults(A_matches, 'Tanahashi', 'Togi', '13:34',3.50)
+  
+  updateresults(B_matches, 'Yano', 'Tonga', '03:15',1.00) # Day 14
+  updateresults(B_matches, 'Satoshi', 'Sanada', '12:09',3.50)
+  updateresults(B_matches, 'Elgin', 'Suzuki', '11:13',3.00)
+  updateresults(B_matches, 'Juice', 'Omega','15:36',3.75)
+  updateresults(B_matches, 'Evil', 'Okada','22:47',4.25)
+  
+  updateresults(A_matches, 'Nagata', 'Zack', '15:08',3.50) # Day 15
+  updateresults(A_matches, 'Ibushi', 'Yoshi', '14:28',3.50) 
+  updateresults(A_matches, 'Fale', 'Goto', '09:34',2.25)
+  updateresults(A_matches, 'Naito', 'Makabe', '11:31',3.25)
+  updateresults(A_matches, 'Tanahashi', 'Ishii', '23:30',4.5)
+  
+  updateresults(B_matches, 'Tonga', 'Koji', '10:43',2.75) # Day 16
+  updateresults(B_matches, 'Juice', 'Yano', '04:25',1.50)
+  updateresults(B_matches, 'Elgin', 'Evil', '11:07',4.00)
+  updateresults(B_matches, 'Omega', 'Sanada','15:03',3.75)
+  updateresults(B_matches, 'Okada', 'Suzuki','30:00',4.75,True)
+  
+  updateresults(A_matches, 'Fale', 'Nagata', '11:56',4.25) # Day 17
+  updateresults(A_matches, 'Makabe', 'Yoshi', '11:28',3.50) 
+  updateresults(A_matches, 'Zack', 'Ishii', '15:22',4.25)
+  updateresults(A_matches, 'Goto', 'Ibushi', '11:03',4.25)
+  updateresults(A_matches, 'Naito', 'Tanahashi', '26:41',5.00)
+  
+  updateresults(B_matches, 'Juice', 'Elgin', '11:48',3.75) # Day 18
+  updateresults(B_matches, 'Tonga', 'Sanada', '11:59',3.75)
+  updateresults(B_matches, 'Yano', 'Suzuki', '06:56',3.00)
+  updateresults(B_matches, 'Evil', 'Satoshi','14:23',4.00)
+  updateresults(B_matches, 'Omega', 'Okada','24:40',6.00)
 ```
+
+
 
 
 </details>
