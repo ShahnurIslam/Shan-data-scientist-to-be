@@ -70,7 +70,7 @@ The information above tells us that the data frame only contains 10 entries with
 ```python
 df
 ```
-<div>
+<div font-size: 1em;>
 
 
 <table border="0" class="dataframe">
@@ -150,7 +150,7 @@ df # Let's print the dataframe to see if that's worked
 
 <div>
 
-<table border="1" class="dataframe">
+<table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -257,7 +257,7 @@ A_Block.head(1)#lets use head to see if the table has been set up correctly
 
 <div>
 
-<table border="1" class="dataframe">
+<table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
