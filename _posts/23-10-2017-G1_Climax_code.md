@@ -9,7 +9,7 @@ tags:
   Python
 ---
 
-The functions I created to update the matches & block results dataframes
+The below are the functions I created to update the matches & block results dataframes in my G1 climax post
 
 ```python
 def updateresults(df,winner,loser, time, DMR, draw = False):#We want to find the index for the match for these two wrestlers
