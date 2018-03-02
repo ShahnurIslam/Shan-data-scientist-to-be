@@ -10,7 +10,7 @@ tags:
 In May 2011 the EU passed a Cookie Law that affects all cookie enabled websites.  A cookie enabled website now needs to inform a visitor to their site that they are using cookies. If this is your first time on my site you would have seen the below.
 
 
-![CookieConsent](/img/Cookie Consent.jpg)
+![CookieConsent](/img/Cookie Consent.JPG)
 
 I thought this post might be useful to others who have a **Beautiful Jekyll site** that uses **cookies** and live in the EU. 
 
