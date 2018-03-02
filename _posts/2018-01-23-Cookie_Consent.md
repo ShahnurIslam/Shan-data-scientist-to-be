@@ -10,7 +10,7 @@ tags:
 In May 2011 the EU passed a Cookie Law that affects all cookie enabled websites.  A cookie enabled website now needs to inform a visitor to their site that they are using cookies. If this is your first time on my site you would have seen the below.
 
 
-![CookieConsent](/img/Cookie Consent.JPG)
+![CookieConsent](/img/Cookie%20Consent.JPG)
 
 I thought this post might be useful to others who have a **Beautiful Jekyll site** that uses **cookies** and live in the EU. 
 
@@ -20,7 +20,7 @@ If the above didn't make any sense let me explain.
 
 A quick explanation of a cookies is that it's a small bit of text that is downloaded onto your device when you visit a site. My wife said it's a horribly misleading term that makes you think of baked goods and should be called something else. 
 
-Cookie Image
+![Cookies](/img/I-Got-99-Cookies-But-A-Bitch-Ate-One-Funny-Cookie-Meme-Picture.jpg)
 
 Websites can use this data for a myriad of things . As an example a site may use the cookie to track how many times you visited the site, how long you've been there & whether you made any purchases.  Before the cookie law came in, this information was gathered without the user being aware. I won't go into all the details about the cookie law but more information can be found [here](https://www.cookielaw.org/faq/#Whatsthecookielawallabout). 
 
