@@ -42,11 +42,12 @@ Once you've created your script, copy the code. We then paste the script into th
 
 ![example](/img/Head_HTML.PNG)
 
-Click Commit once you're done and it's as easy as that!
+Click commit once you're done and it's as easy as that!
 
-Hope that helps others and thank you for reading!
+Hope this helps others and thank you for reading! Till the next post!
 
 Thanks,
+
 Shan
 
 
