@@ -1,18 +1,19 @@
 ---
 layout: post
 comments: true
-published: false
-title: Beautiful Jekyll & Cookie Consent implementation[Mini -Post]
+published: true
+title: Beautiful Jekyll & Cookies implementation[Mini -Post]
 tags:
   Jekyll
 ---
 
-In May 2011 the EU passed a law that affects all cookie enabled websites.  A cookie enabled website now needs to inform those who visit thier site that they are using cookies. If this is your first time on my site you would have seen the below.
+In May 2011 the EU passed a law that affects all cookie enabled websites. A cookie enabled website now needs to inform those who visit thier site that they are using cookies.  
 
+If this is your first time on my site you would have seen the below. 
 
 ![CookieConsent](/img/Cookie%20Consent.JPG)
 
-I thought this post might be useful to others who have a **Beautiful Jekyll site** that uses **cookies** and live in the EU. 
+I use cookies to look at traffic on my site and to see how users found my site. My blog is created through Beautiful Jekyll and it took me a little while to implement this. So I made this post in the hopes that it may help others and save them time. 
 
 If the above didn't make any sense let me explain.
 
