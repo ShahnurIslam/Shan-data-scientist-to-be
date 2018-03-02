@@ -16,7 +16,7 @@ I thought this post might be useful to others who have a **Beautiful Jekyll site
 
 If the above didn't make any sense let me explain.
 
-### What's a cookie?
+## What's a cookie?
 
 A quick explanation of a cookies is that it's a small bit of text that is downloaded onto your device when you visit a site. My wife said it's a horribly misleading term that makes you think of baked goods and should be called something else. 
 
@@ -25,23 +25,24 @@ A quick explanation of a cookies is that it's a small bit of text that is downlo
 Websites can use this data for a myriad of things . As an example a site may use the cookie to track how many times you visited the site, how long you've been there & whether you made any purchases.  Before the cookie law came in, this information was gathered without the user being aware. I won't go into all the details about the cookie law but more information can be found [here](https://www.cookielaw.org/faq/#Whatsthecookielawallabout). 
 
 
-### What's Beautiful Jekyll?*(Doesn't mean pretty Dr Jekyll!)*
+## What's Beautiful Jekyll?*(Doesn't mean pretty Dr Jekyll!)*
 
 Beautiful Jekyll is a website template I used to create my blog site. It was created by Dean Attali and allows users to create & host their site on Github. I've mainly seen it used for Data Science blogs but the contenet could be anything. 
 
-### Cookie Consent Implementation
+## Cookie Consent Implementation
 
+
+### **Step 1 Create Cookie Script**
 First of all we will need some script that will create a cookie consent pop up. I used [Cookie Consent](https://cookieconsent.insites.com/download/) to create my script. They allow you to customise the theme of the pop up and provide default consent terms.
 Feel free to create on your own scirpt if you know how.
 
-Once you've created your script, copy the code. We then paste the script in this file **'head.html'** which can be found in the folder 
-** _updates**  Place it at the very bottom between the {$ end if $} and the </head> tags. See mine below as an example
+### **Step 2 Copy & Paste Script**
+Once you've created your script, copy the code. We then paste the script into this file **'head.html'** which can be found in the folder ** _updates**  Place it at the very bottom between the {$ end if $} and the </head> tags. See mine below as an example
 
 ![example](/img/HEAD_HTML.PNG)
 
-Paste the script and the very bottom of the file. Click Commit and you're done.
+Click Commit once you're done and it's as easy as that!
 
-Easy peasy!
 
 Hope that helps others and thank you for reading!
 
