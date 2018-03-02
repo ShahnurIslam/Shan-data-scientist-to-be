@@ -7,7 +7,7 @@ tags:
   Jekyll
 ---
 
-In May 2011 the EU passed a Cookie Law that affects all cookie enabled websites.  A cookie enabled website now needs to inform a visitor to their site that they are using cookies. If this is your first time on my site you would have seen the below.
+In May 2011 the EU passed a law that affects all cookie enabled websites.  A cookie enabled website now needs to inform those who visit thier site that they are using cookies. If this is your first time on my site you would have seen the below.
 
 
 ![CookieConsent](/img/Cookie%20Consent.JPG)
@@ -27,18 +27,17 @@ Websites can use this data for a myriad of things . As an example a site may use
 
 ### What's Beautiful Jekyll?*(Doesn't mean pretty Dr Jekyll!)*
 
-Beautiful Jekyll is a tool I use to create my blog site. It was created by Dean Attali and allows users to create & host their site on Github . I've mainly seen it used for Data Science blogs but could be used for anything. 
+Beautiful Jekyll is a website template I used to create my blog site. It was created by Dean Attali and allows users to create & host their site on Github. I've mainly seen it used for Data Science blogs but the contenet could be anything. 
 
 ### Cookie Consent Implementation
 
+First of all we will need some script that will create a cookie consent pop up. I used [Cookie Consent](https://cookieconsent.insites.com/download/) to create my script. They allow you to customise the theme of the pop up and provide default consent terms.
+Feel free to create on your own scirpt if you know how.
 
-First of all we will need some script that will create the cookie consent pop up on the site. If you go to the site [Cookie Consent](https://cookieconsent.insites.com/download/). You can quickly create a snippet of script and adjust the apperance of how it pops up on your site. 
+Once you've created your script, copy the code. We then paste the script in this file **'head.html'** which can be found in the folder 
+** _updates**  Place it at the very bottom between the {$ end if $} and the </head> tags. See mine below as an example
 
-Once you've tweaked the appearance. Copy the code, go to your github page that you site is based on 
-Folder
-
-_updates
-head.html
+![example](/img/HEAD_HTML.PNG)
 
 Paste the script and the very bottom of the file. Click Commit and you're done.
 
