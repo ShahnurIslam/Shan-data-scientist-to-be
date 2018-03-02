@@ -30,7 +30,7 @@ Websites can use this data for a myriad of things . As an example a site may use
 
 Beautiful Jekyll is a website template I used to create my blog site. It was created by Dean Attali and allows users to create & host their site on Github. I've mainly seen it used for Data Science blogs but the contenet could be anything. 
 
-## Cookie Consent Implementation
+## Cookie Implementation
 
 
 ### **Step 1 Create Cookie Script**
