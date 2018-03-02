@@ -2,7 +2,7 @@
 layout: post
 comments: true
 published: true
-title: Beautiful Jekyll & Cookies implementation[Mini -Post]
+title: Jekyll & Cookies[Mini -Post]
 tags:
   Jekyll
 ---
