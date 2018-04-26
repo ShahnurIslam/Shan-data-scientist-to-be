@@ -12,7 +12,7 @@ I didn't post much or accomplish as many tasks as I would have liked in 2017 but
 
 At the moment here are things I would like to finish in 2018
 - Post at least 10 times this year
-- Finish the Data Science specilisation on Coursera. Currently I've done 3 out of 9.
+- Finish the Data Science specilisation on Coursera. Currently I've done ~~3~~4 out of 9.
 - Udemy course Workshop in Probability & Statics **(61% done)**. My statistics wasn't great so decided to brush up as this is a key part of data science
 - Become proficient in Python & R
 - Finish reading Hadley Wickhams R for Data Science book [available online](http://r4ds.had.co.nz/index.html)
