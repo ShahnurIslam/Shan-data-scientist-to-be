@@ -116,6 +116,10 @@
   {% elsif site.avatar %}
   <meta name="twitter:image" content="{{ site.url }}{{ site.avatar }}" />
   {% endif %}
+ {% if site.matomo %}
+  {% include matomo.html %}
+  {% endif %}
+  
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 <script>
@@ -123,13 +127,13 @@ window.addEventListener("load", function(){
 window.cookieconsent.initialise({
   "palette": {
     "popup": {
-      "background": "#252e39"
+      "background": "#edeff5",
+      "text": "#838391"
     },
     "button": {
-      "background": "#14a7d0"
+      "background": "#4b81e8"
     }
   },
-  ,
   "theme": "classic",
   "position": "bottom-right",
   "type": "opt-out",
@@ -173,6 +177,9 @@ onRevokeChoice: function() {
 },
   
   // end of test
+  
+  
 })});
 </script>
+  
 </head>
