@@ -91,7 +91,7 @@ url-pretty: "shan-data-science.co.uk"  # eg. "deanattali.com/beautiful-jekyll"
 disqus: "https-shahnurislam-github-io"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: "UA-96884074-1"
+google_analytics: "UA-96884074-1"
 
 # Google Tag Manager ID
 #gtm: 
