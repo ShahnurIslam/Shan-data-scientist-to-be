@@ -116,9 +116,7 @@
   {% elsif site.avatar %}
   <meta name="twitter:image" content="{{ site.url }}{{ site.avatar }}" />
   {% endif %}
- {% if site.matomo %}
-  {% include matomo.html %}
-  {% endif %}
+  <!-- cookie consent starts here -->
   
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
@@ -143,8 +141,8 @@ window.cookieconsent.initialise({
     "deny": "Decline Cookies"
   }
   
-  //try here??
-  onInitialise: function (status) {
+  //callback hook which is supposed to fire and give option to decline
+ /* onInitialise: function (status) {
   var type = this.options.type;
   var didConsent = this.hasConsented();
   if (type == 'opt-in' && didConsent) {
@@ -175,11 +173,10 @@ onRevokeChoice: function() {
     // enable cookies
   }
 },
+  */
+  //end of cookie consent callback hook
   
-  // end of test
-  
-  
-})});
+  })});
 </script>
   
 </head>
